@@ -1,0 +1,3 @@
+name: WindyDay
+version: ${project.version}
+main: windyday.windyday.WindyDay

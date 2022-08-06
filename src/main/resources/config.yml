@@ -1,0 +1,29 @@
+#썬더러스의 저주 활성화 여부
+thundurus_debuff: true
+#볼트러스의 저주 활성화 여부
+tornadus_debuff: true
+#번개 내리치는 간격(초)
+thunder_time: 600
+#번개 데미지
+thunder_damage: 25
+#바람의 최소 강도
+wind_power_min: 50
+#바람의 최대 강도
+wind_power_max: 150
+#바람이 변화하는 간격(초)
+wind_change_time: 600
+#바람소리 활성화 여부
+wind_sound: true
+#엔티티에게도 바람 적용 여부
+wind_entity_affect: true
+#Living 엔티티에게만 바람 적용 여부(false 시, 아이템 등의 엔티티도 영향을 받음)
+wind_only_living_entity: true
+#플레이어 근처의 엔티티에게만 바람 적용 여부, 0이면 false 1이상으로 설정 시
+#설정한 값 이내의 엔티티에게 적용
+wind_entity_affect_distance: 0
+#엔티티에게 적용되는 벡터 강도 조절, 엔티티는 플레이어보다 가벼워서 더 멀리나가는걸 고려
+wind_entity_vector_multiple: 0.8
+#바람 최소 간격 (틱)
+wind_min_delay: 10
+#바람 최대 간격 (틱)
+wind_max_delay: 50
